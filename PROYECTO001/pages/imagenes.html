@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9f4;
+            background-image: url('../assets/img/fondo.png');
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center bottom;
+        }
+
+        .image-gallery {
+            list-style: none;
+            padding: 10;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .image-gallery li {
+            margin: 10px 10px;
+        }
+
+        .image-gallery img {
+            max-width: 180px;
+            height: auto;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 200px;
+            height: auto;
+        }
+
+        .description {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            background-color: #b6cdc5;
+            border: 1px solid #7f908a;
+            border-radius: 15px;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: #2e4d3c;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Imágenes</h1>
+        <a href="https://www.yoga.com" target="_blank">
+            <figure>
+                <img class="logo" src="../assets/img/logo.png" alt="Imagen de yoga">
+            </figure>
+        </a>
+    </header>
+    <main>
+        <section>
+            <h2 class="title">El yoga y la salud</h2>
+            <article>
+                <p class="description">El yoga es una práctica que combina posturas físicas, respiración y meditación
+                    para promover la salud
+                    y el bienestar. A continuación se presentan algunas imágenes relacionadas con el yoga:</p>
+                <ul class="image-gallery">
+                    <li><a href="../assets/img/Masks (1).png" target="_blank"><img src="../assets/img/Masks (1).png"
+                                alt="Chica en posición de meditación desde cerca"></a></li>
+                    <li><a href="../assets/img/Masks (2).png" target="_blank"><img src="../assets/img/Masks (2).png"
+                                alt="Chica en posición de meditación desde lejos"></a></li>
+                    <li><a href="../assets/img/Masks (3).png" target="_blank"><img src="../assets/img/Masks (3).png"
+                                alt="Chica en posición de yoga"></a></li>
+                    <li><a href="../assets/img/Masks (4).png" target="_blank"><img src="../assets/img/Masks (4).png"
+                                alt="Chica en posición de yoga hacia adelante"></a></li>
+                    <li><a href="../assets/img/Masks (5).png" target="_blank"><img src="../assets/img/Masks (5).png"
+                                alt="Chica en posición de yoga hacia atrás"></a></li>
+                    <li><a href="../assets/img/flor.png" target="_blank"><img src="../assets/img/flor.png"
+                                alt="Chica en posición de yoga hacia atrás"></a></li>
+                </ul>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mi Proyecto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
