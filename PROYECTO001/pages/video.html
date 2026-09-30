@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Video Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px 100px 220px 100px;
+            background-image: url('../assets/img/perros/perro100.webp');
+            background-repeat: no-repeat;
+            background-size: auto auto;
+            background-position: right bottom;
+        }
+
+        .contenedor_youtube {
+            width: 400px;
+            height: auto;
+        }
+
+        h2 {
+            background-color: blanchedalmond;
+            margin: 0;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Multimeda en archivos HTML5</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Reproductores Multimedia</h2>
+        </section>
+        <article>
+            <h3>Video de Youtube sobre HTML5</h3>
+            <p>Curso completo de HTML desde cero (1/11) Qué es HTML5, primeros pasos</p>
+            <!-- Video player for Youtube -->
+            <iframe class="contenedor_youtube" src="https://www.youtube.com/embed/GKB_gzyDWFQ?controls=0"
+                frameborder="0"></iframe>
+        </article>
+        <article>
+            <h3>Reproductor de música</h3>
+            <p>Reproductor de audio en OGG y MP3</p>
+            <!-- Audio player -->
+            <audio controls autoplay muted>
+                <source src="../assets/audio/file.ogg" type="audio/ogg">
+                <source src="../assets/audio/file.mp3" type="audio/mp3">
+            </audio>
+        </article>
+        <article>
+            <h3>Reproductor de vídeo en MP4</h3>
+            <p>Reproductor de video MP4 local</p>
+            <!-- Video player -->
+            <video controls playsinline preload="metadata" width="400">
+                <source src="../assets/video/video.mp4" type="video/mp4">
+                Your browser does not support the HTML5 video player.
+            </video>
+        </article>
+    </main>
+
+
+</body>
+
+</html>
