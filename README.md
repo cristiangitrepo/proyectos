@@ -2,21 +2,14 @@
 Curso de HTML5 🚀
 ¡Bienvenido/a al repositorio oficial de los ejercicios y proyectos prácticos del Curso de HTML5! Este espacio está diseñado para recopilar todo el código, las prácticas y los proyectos desarrollados a lo largo de las diferentes lecciones del curso.
 
-LOS PERRETES
-https://cristiangitrepo.github.io/proyectos/PROYECTO001/pages/perros.html
+> Github Pages link
+> https://cristiangitrepo.github.io/
 
 ---
 📂 Estructura del Repositorio
 El contenido está organizado por módulos y temas para facilitar el seguimiento del aprendizaje:
 ```text
-/
-├── 01-introduccion/       # Primeros pasos, estructura básica y etiquetas esenciales
-├── 02-textos-y-listas/    # Formato de textos, párrafos, saltos y listas ordenadas/desordenadas
-├── 03-enlaces-e-imagenes/ # Hipervínculos, rutas relativas/absolutas e inserción de imágenes
-├── 04-tablas/             # Estructura de tablas complejas (thead, tbody, colspan, rowspan)
-├── 05-formularios/        # Formularios avanzados, inputs, etiquetas y validación nativa
-├── 06-multimedia/         # Inserción de audio, video y elementos interactivos
-├── 07-semantica/          # Etiquetas semánticas de HTML5 (header, nav, article, section, footer)
+# Etiquetas semánticas de HTML5 (header, nav, article, section, footer)
 └── 08-proyecto-final/     # Proyecto integrador aplicando todos los conceptos del curso
 ```
 ---
@@ -29,7 +22,7 @@ Un editor de código fuente. Te recomendamos Visual Studio Code.
 🚀 Cómo Empezar
 Clona este repositorio en tu máquina local:
 ```bash
-   git clone https://github.com/tu-usuario/curso-html5.git
+   git clone https://github.com/cristiangitlab/proyecto001.git
    ```
 Abre la carpeta del repositorio con tu editor de código favorito.
 Explora los módulos y abre cualquier archivo `.html` en tu navegador para ver el resultado.
