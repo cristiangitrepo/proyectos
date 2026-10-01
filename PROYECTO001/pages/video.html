@@ -67,6 +67,10 @@
             text-decoration: none;
             color: white;
         }
+
+        video {
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -119,7 +123,7 @@
             <h3>Reproductor de vídeo en MP4</h3>
             <p>Reproductor de video MP4 local</p>
             <!-- Video player -->
-            <video controls playsinline preload="metadata" width="100%">
+            <video controls playsinline preload="metadata">
                 <source src="../assets/video/video.mp4" type="video/mp4">
                 Your browser does not support the HTML5 video player.
             </video>
