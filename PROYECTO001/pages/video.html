@@ -16,11 +16,22 @@
             background-position: right bottom;
         }
 
-        .contenedor_youtube {
+        .iframe_youtube {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
             width: 100%;
             height: 100%;
+            border: none;
+        }
+
+        .youtube-container {
             position: relative;
-            border: 0;
+            width: 100%;
+            overflow: hidden;
+            padding-top: 56.25%;
+            margin-bottom: 1em;
         }
 
         h2 {
@@ -78,7 +89,9 @@
             <h3>Video de Youtube sobre HTML5</h3>
             <p>Curso completo de HTML desde cero (1/11) Qué es HTML5, primeros pasos</p>
             <!-- Video player for Youtube -->
-            <iframe class="contenedor_youtube" src="https://www.youtube.com/embed/eM_5ww615tQ?controls=0"></iframe>
+            <div class="youtube-container">
+                <iframe class="iframe_youtube" src="https://www.youtube.com/embed/eM_5ww615tQ?controls=0"></iframe>
+            </div>
         </article>
         <article class="audio-player" id="audio">
             <h3>Reproductor de música</h3>
