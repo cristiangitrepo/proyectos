@@ -17,8 +17,9 @@
         }
 
         .contenedor_youtube {
-            width: 400px;
-            height: auto;
+            width: 100%;
+            height: 320px;
+            border: 0;
         }
 
         h2 {
@@ -26,25 +27,53 @@
             margin: 0;
             padding: 10px 10px;
         }
+
+        .audio-player {
+            background-color: blanchedalmond;
+            padding: 2em;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+            background-color: black;
+        }
+
+        nav ul li {
+            color: white;
+            display: inline-block;
+            padding: 1em;
+        }
+
+        nav ul li:hover {
+            color: black;
+            background-color: cadetblue;
+        }
     </style>
 </head>
 
 <body>
     <header>
         <h1>Multimeda en archivos HTML5</h1>
+        <nav>
+            <ul>
+                <li><a href="#youtube"></a>Youtube</li>
+                <li><a href="#audio"></a>Audio</li>
+                <li><a href="#video"></a>Video</li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
             <h2>Reproductores Multimedia</h2>
         </section>
-        <article>
+        <article id="youtube">
             <h3>Video de Youtube sobre HTML5</h3>
             <p>Curso completo de HTML desde cero (1/11) Qué es HTML5, primeros pasos</p>
             <!-- Video player for Youtube -->
-            <iframe class="contenedor_youtube" src="https://www.youtube.com/embed/GKB_gzyDWFQ?controls=0"
-                frameborder="0"></iframe>
+            <iframe class="contenedor_youtube" src="https://www.youtube.com/embed/eM_5ww615tQ?controls=0"></iframe>
         </article>
-        <article>
+        <article class="audio-player" id="audio">
             <h3>Reproductor de música</h3>
             <p>Reproductor de audio en OGG y MP3</p>
             <!-- Audio player -->
@@ -52,12 +81,25 @@
                 <source src="../assets/audio/file.ogg" type="audio/ogg">
                 <source src="../assets/audio/file.mp3" type="audio/mp3">
             </audio>
+            <h4>📜 Licencia</h4>
+            <p>En resumen: puedes hacer todo lo que quieras! 🎉</p>
+
+            <h5>🔓 Uso libre</h5>
+            <p>Después de descargarlos de la biblioteca de muestras, haz lo que quieras con los archivos (modifícalos,
+                compleméntalos o utilízalos como desees).
+            </p>
+            <p>Todos los archivos se proporcionan TAL CUAL y, por supuesto,
+                sin ninguna garantía. No podemos garantizar que todos los enlaces funcionarán.</p>
+            <h5>🎬 Contenido original</h5>
+            <p>
+                Todo el contenido presentado en este sitio, incluyendo el contenido de audio y vídeo, se crearon
+                específica e íntegramente para este proyecto.</p>
         </article>
-        <article>
+        <article id="video">
             <h3>Reproductor de vídeo en MP4</h3>
             <p>Reproductor de video MP4 local</p>
             <!-- Video player -->
-            <video controls playsinline preload="metadata" width="400">
+            <video controls playsinline preload="metadata" width="100%">
                 <source src="../assets/video/video.mp4" type="video/mp4">
                 Your browser does not support the HTML5 video player.
             </video>
