@@ -1,4 +1,4 @@
-# proyectos
+# Proyectos
 Curso de HTML5 🚀
 ¡Bienvenido/a al repositorio oficial de los ejercicios y proyectos prácticos del Curso de HTML5! Este espacio está diseñado para recopilar todo el código, las prácticas y los proyectos desarrollados a lo largo de las diferentes lecciones del curso.
 
@@ -8,7 +8,8 @@ Curso de HTML5 🚀
 > https://cristiangitrepo.github.io/
 
 ---
-📂 Estructura del Repositorio
+📂 **Estructura del Repositorio**
+
 El contenido está organizado por módulos y temas para facilitar el seguimiento del aprendizaje:
 ```text
 # Etiquetas semánticas de HTML5 (header, nav, article, section, footer)
@@ -16,10 +17,9 @@ El contenido está organizado por módulos y temas para facilitar el seguimiento
 └── cv/ Ejemplo de CV
 └── proyectos/ Proyectos de ejemplo vistos en clase
 └──CuentosInfantiles/ ejemplo de navegación entre páginas
-
 ```
 ---
-
+[requisitos](#Requisitos)
 🛠️ Requisitos Previos Para visualizar y trabajar con los ejercicios de este repositorio, solo necesitas: Un navegador web actualizado (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.). Un editor de código fuente. Te recomendamos Visual Studio Code. (Opcional pero recomendado) La extensión Live Server para Visual Studio Code para ver los cambios en tiempo real.
 🚀 Cómo Empezar Clona este repositorio en tu máquina local:
 
