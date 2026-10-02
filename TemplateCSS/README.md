@@ -18,6 +18,7 @@ CSS3 For modern, responsive styling and animations.
 
 Run the project:
 Open `index.html` directly in your favorite web browser, or use a live server extension (such as Live Server in VS Code) for the best development experience.
+Click [here](https://cristiangitrepo.github.io/proyectos/TemplateCSS/){:target="_blank"} to visit coming soon website.
 
 ---
 
